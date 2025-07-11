@@ -1,0 +1,505 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    display: flex;
+    align-items: left;
+
+    width: 50%;
+    height: auto;
+}
+
+.anime {
+    font-size: 50px;
+    font-family: Arial;
+
+    color: red;
+}
+
+.new {
+    font-size: 50px;
+    font-family: Arial;
+
+    color: white;
+}
+
+.info-path {
+    display: flex;
+    align-items: left;
+
+    width: 50%;
+    height: auto;
+
+    font-family: Arial;
+}
+
+.info-path-text {
+    color: white;
+
+    font-size: 15px;
+}
+
+.info-path-text-bold {
+    color: white;
+    font-weight: bold;
+
+    font-size: 15px;
+}
+
+.live-action {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    width: 50%;
+    height: auto;
+
+    margin-top: 40px;
+  
+}
+
+.live-action-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial;
+    font-weight: bold;
+
+    color: white;
+
+    background-color: red;
+
+    border-radius: 46px;
+
+    padding: 7px;
+}
+
+
+.title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.title-text {
+    display: flex;
+
+    color: white;
+
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+
+.time-stamp {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    padding-top: 20px;
+
+    width: 50%;
+    height: auto;
+
+    font-family: Arial;
+    font-weight: bold;
+
+    color: white;
+
+    gap: 5px;
+}
+
+.time-stamp-name {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    font-family: Arial;
+    font-weight: bold;
+
+    text-decoration: underline;
+
+    color: white;
+
+    gap: 5px;
+}
+
+.time-stamp-img {
+    background-image: url(./img/icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.time-stamp-img-size {
+    width: 20px;
+    height: 20px;
+}
+
+.img-centralizer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    margin-top: 20px;
+
+    width: 50%;
+    height: auto;
+}
+
+.img-size {
+    display: flex;
+    flex-direction: row;
+
+    width: 1700px;
+    height: 500px;
+}
+
+.img1 {
+    background-image: url(./img/Sung-Jinwoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.img2 {
+    background-image: url(./img/byeon-woo-seok.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.under-text {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    width: 50%;
+    height: auto;
+
+    gap: 5px;
+}
+
+.under-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+    background-color: red;
+
+    width: 50px;
+    height: 2px;
+}
+
+.under-text-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial;
+    font-size: 15px;
+
+    margin-top: 10px;
+
+    color: white;
+}
+
+.text-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+
+    width: 50%;
+    height: auto;
+
+    color: white;
+
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.advertisement-centralizer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    padding: 10px;
+
+    border: 1px solid lightgray;
+
+    margin-top: 20px;
+
+    gap: 10px;
+
+    border-radius: 16px;
+
+    width: 50%;
+    height: auto;
+}
+
+.advertisement-img-size {
+
+    width: 120px;
+    height: 80px;
+}
+
+.advertisement-img {
+    background-image: url(./img/blackpink-pubg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 16px;
+
+
+    width: 100%;
+    height: 100%;
+}
+
+.advertisement-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    font-family: Arial;
+
+    gap: 20px;
+
+    color: white;
+}
+
+.advertisement-text-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    font-family: Arial;
+
+    gap: 20px;
+
+    color: rgb(94, 94, 94);
+}
+
+.img-han-myung-gu-centralizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+
+    width: 50%;
+    height: auto;
+}
+
+.img-han-myung-gu-size {
+    width: 1200px;
+    height: 450px;
+}
+
+.img-han-myung-gu {
+    background-image: url(./img//han-myung-gu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 16px;
+
+
+    width: 100%;
+    height: 100%;
+}
+
+.img-Sung-Jinwoo-centralizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+
+    width: 50%;
+    height: auto;
+}
+
+.img-Sung-Jinwoo-size {
+    width: 1200px;
+    height: 450px;
+}
+
+.img-Sung-Jinwoo {
+    background-image: url(./img/Sung-Jinwoo-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 16px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.bar-tags-centralizer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin-top: 20px;
+
+    width: 50%;
+    height: auto;
+}
+
+.bar-tags{
+    background-color: lightcyan;
+
+    width: 30px;
+    height: 3px;
+}
+
+.tags-centralizer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin-top: 20px;
+
+    color: rgb(109, 109, 109);
+
+    gap: 10px;
+
+    font-family: Arial;
+
+    width: 50%;
+    height: auto;
+}
+
+.tgas-img-size{
+ width: 20px;
+ height: 20px;
+}
+
+.tgas-img{
+    background-image: url(./img/icon-preco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 16px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.tags-text{
+    color: white;
+}
+
+.end-bar-centralizer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin-top: 20px;
+
+    width: 50%;
+    height: auto;
+}
+
+.end-bar{
+    display: flex;
+    border: 1px dashed rgb(44, 44, 44);
+
+
+    width: 100% ;
+    height: 2px;
+}
+
+.info-producer-centralizer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    color: rgb(46, 46, 46);
+
+    font-family: Arial;
+    font-weight: bold;
+
+    gap: 10px;
+    margin-top: 20px;
+
+    width: 50%;
+    height: auto;
+}
+
+.img-producer-size{
+ width: 50px;
+ height: 50px;
+}
+
+.img-producer{
+     background-image: url(./img/Giga-Chad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 50px;
+
+    width: 100%;
+    height: 100%;
+}
+.producer-name{
+    color: white;
+}
+
+.producer-text-info{
+    display: flex;
+
+    color: white;
+
+    font-family: Arial; 
+    font-size: 15px;
+
+    margin-top: 10px;
+
+    width: 50%;
+    height: auto;
+}
